@@ -43,6 +43,7 @@
     height: 1rem;
     border: none;
     cursor: pointer;
+    background-size: contain;
 }
 .slider button{
     background-color: unset;
