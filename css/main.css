@@ -1,0 +1,177 @@
+:root {
+    --font-family: "Bricolage Grotesque", sans-serif;
+    --font-second: "Montserrat", sans-serif;
+    --second-family: "Bigerside Expanded Regular", sans-serif;
+    --third-family: "Bebas Neue", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+a {
+    display: contents;
+    color: inherit;
+    text-decoration-line: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font: 400 2.3364485981vw/1.33 var(--font-family), sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #fff;
+}
+
+@media (min-width: 428px) {
+    html {
+        font: 400 10px var(--font-family), sans-serif;
+    }
+    body{
+        
+    }
+}
+
+body {
+    background: #F7F7F7;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 143%;
+    max-width: 428px;
+}
+
+h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 11rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    padding-top: 8rem;
+}
+
+.container {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    margin: 0 auto;
+}
+
+.full-width {
+    margin-left: -4.6rem;
+    padding-left: 4.6rem;
+    padding-right: 4.6rem;
+}
+
+.title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 86%;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.btn-link {
+    display: inline-block;
+    width: 100%;
+    /* height: 9.5rem; */
+    margin: 0 auto;
+}
+
+.btn {
+    width: 100%;
+    height: 8.8rem;
+    position: relative;
+    display: block;
+}
+
+.btn img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 33.6rem;
+    transform: translateX(-50%);
+}
+
+.btn p {
+    position: relative;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 138%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    padding-top: 2.9rem;
+}
+
+.btn1 {
+    margin: 1rem 0 7.2rem 0;
+}
+
+.underline {
+    text-decoration-line: underline !important;
+    display: inline-block;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.accent {
+    font-weight: 600;
+}
+
+#shadow-host-companion {
+    padding: 0 !important;
+}
+
+.bg1 {
+    background-image: url(../images/header-hero.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+/*.bg2 {
+    background-image: url(../images/bg2.svg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}*/
+
+.fixed-btn {
+    z-index: 10;
+    position: fixed;
+    bottom: -0.3rem;
+    transform: translate(-50%);
+    height: 11rem;
+    left: 50%;
+    width: 100%;
+    padding: 1.3rem 3.8rem 1.3rem 3.8rem;
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+    background: rgba(37, 37, 37, 0.5);
+    max-width: 428px;
+    display: none;
+
+}
+
+.fixed-btn .btn {
+    height: 7.5rem;
+    background: #E3FE73;
+    border-radius: 15rem;
+}

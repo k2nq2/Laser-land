@@ -1,0 +1,92 @@
+.c2 {
+    padding-top: 9.6rem;
+}
+.c2-title-wrap{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.subtitle{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 93%;
+text-transform: uppercase;
+color: #b6b6b6;
+width: 11.5rem;
+}
+
+
+.c2-num{
+    font-family: "RF Dewi UL";
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 100%;
+    color: #9ebc22;
+}
+.c2-num:after{
+    content: "";
+    width: 5.1rem;
+    height: 0rem;
+    transform: rotate(90deg);
+    border: 1px solid #9ebc22;
+    margin-left: 0.6rem;
+}
+.c2-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 120%;
+color: #000;
+}
+.c2-item{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.c2-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c2-wrapper{
+    background: #e3fe73;
+    border-radius: 0.5rem;
+    padding: 3.7rem 1.4rem 3.1rem 1.4rem;
+    margin-top: 4.4rem;
+}
+.c2-second-wrapper{
+    background-image: url(../../images/c2-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+    padding: 3.8rem 8.3rem 14.1rem 3.7rem;
+    margin-top: 0.5rem;
+}
+.c2-second-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 112%;
+text-transform: uppercase;
+color: #fff;
+}
+.c2-icon-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-top: 2.3rem;
+}
+.c2-icon-item{
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+}
+.c2-icon-item p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 125%;
+color: #000;
+}
